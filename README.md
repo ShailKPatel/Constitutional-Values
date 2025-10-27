@@ -11,7 +11,7 @@ This project analyzes the **preambles** of world constitutions using modern **na
 Constitutional preambles serve as a window into a nation’s founding values and principles — from faith and unity to legality and progress. Using **semantic embeddings** and **unsupervised clustering**, this project identifies recurring ideological patterns and presents them through an **interactive world map** built with Streamlit and Plotly.
 
 ### Live App  
- [View Streamlit Dashboard (Local Run)](#-run-locally)
+ [View Streamlit Dashboard](https://constitutional-values.streamlit.app/)
 
 ### Full Notebook  
  [01_data_preprocessing.ipynb](https://github.com/ShailKPatel/Constitutional-Values/blob/main/notebooks/01_data_preprocessing.ipynb)

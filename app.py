@@ -58,13 +58,28 @@ fig = px.choropleth(
     },
     title="World Map Colored by Preambles of Countries’ Constitutions"
 )
+
+# Adjust map and legend layout
 fig.update_geos(fitbounds="locations", visible=False)
-fig.update_layout(legend_title_text='Cluster Categories',
-        height=900,  
-        margin=dict(l=0, r=0, t=50, b=0)
-    )
+fig.update_layout(
+    legend_title_text='Cluster Categories',
+    legend=dict(
+        title_font=dict(size=18),
+        font=dict(size=20),
+        itemsizing='constant',
+        itemwidth=60,
+        orientation='v',  # vertical legend
+        yanchor="top",
+        y=0.99,
+        xanchor="left",
+        x=0.02
+    ),
+    height=900,  
+    margin=dict(l=0, r=0, t=50, b=0)
+)
 
 st.plotly_chart(fig, use_container_width=True)
+
 
 # 6. Cluster descriptions 
 st.header("Cluster Summaries")
