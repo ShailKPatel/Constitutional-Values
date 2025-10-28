@@ -109,3 +109,8 @@ Streamlit – Web app interface
 
 Elkins, Zachary, Tom Ginsburg, and James Melton. *Comparative Constitutions Project (CCP).*  
 [https://comparativeconstitutionsproject.org/](https://comparativeconstitutionsproject.org/)
+
+
+> **Note:**  
+> The presence or absence of any country in this map is **not** an ideological or political statement.  
+> The countries shown were selected solely based on their availability in the **Comparative Constitutions Project (CCP)** and the **GeoPandas** library.
