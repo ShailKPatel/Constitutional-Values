@@ -1,5 +1,4 @@
-# Constitution Preamble Clusters Across the World
-
+# Constitution Preamble Clustering – NLP-Based Ideological Mapping
 **Explore how different constitutions express national ideals and values through their preambles.**
 
 This project analyzes the **preambles** of world constitutions using modern **natural language processing (NLP)** techniques to discover shared linguistic and philosophical themes. It visualizes countries clustered by their constitutional language into distinct categories of national identity and governance.
